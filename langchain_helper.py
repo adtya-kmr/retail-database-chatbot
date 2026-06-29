@@ -23,7 +23,7 @@ load_dotenv()
 
 # Load API key from Streamlit Cloud if available
 try: 
-    GA_TOKEN = st.secrets["GA_TOKEN"] # Streamlit Cloud except Exception: pass
+    GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"] # Streamlit Cloud except Exception: pass
 except Exception: 
     pass
 
