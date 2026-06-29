@@ -8,10 +8,7 @@ import streamlit as st
 from langchain_helper import db, get_few_shot_db_chain
 
 
-# Gemini 3.1 Flash Lite: 15 RPM
-# Each question makes 2 API calls (SQL generation + answer generation)
-# Limit users to 7 questions per minute.
-MAX_REQUESTS = 7
+MAX_REQUESTS = 3
 WINDOW = 60  # seconds
 
 
