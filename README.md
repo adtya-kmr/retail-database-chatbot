@@ -68,7 +68,6 @@ Retail-QA-Tool/
 ├── assets/
 │   └── ui.png
 │   
-│
 ├── database/
 │   ├── retail.db
 │   └── retail_dataset.sql
