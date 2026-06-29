@@ -44,11 +44,9 @@ embedding_model = GoogleGenerativeAIEmbeddings(
 # Database
 # =============================================================================
 
-
 db = SQLDatabase.from_uri(
     "sqlite:///database/retail.db"
 )
-
 
 # =============================================================================
 # Few-shot Retrieval
