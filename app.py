@@ -7,6 +7,11 @@ import streamlit as st
 
 from langchain_helper import db, get_few_shot_db_chain
 
+# Load API key from Streamlit Cloud if available
+try: 
+    GA_TOKEN = st.secrets["GA_TOKEN"] # Streamlit Cloud except Exception: pass
+except Exception: 
+    pass
 
 # Gemini 3.1 Flash Lite: 15 RPM
 # Each question makes 2 API calls (SQL generation + answer generation)
