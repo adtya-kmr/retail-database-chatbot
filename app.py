@@ -21,7 +21,7 @@ st.set_page_config(
     layout="centered",
 )
 
-st.title("👕 Retail Q&A Tool")
+st.title("Retail Q&A Tool 👕")
 st.caption("Ask questions about the retail inventory database using natural language.")
 
 
