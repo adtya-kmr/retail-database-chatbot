@@ -8,7 +8,7 @@ import streamlit as st
 from langchain_helper import db, get_few_shot_db_chain
 
 
-MAX_REQUESTS = 3
+MAX_REQUESTS = 4
 WINDOW = 60  # seconds
 
 
