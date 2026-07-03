@@ -15,7 +15,7 @@ from langchain_google_genai import (
 
 from few_shots import few_shots
 
-# Environment
+# Local Environment
 load_dotenv()
 
 # Load API key from Streamlit Cloud if available
