@@ -31,7 +31,7 @@ A Generative AI-powered application that converts natural language questions int
 * Which product earns the most after discounts?
 * Which brand has the highest inventory value?
 * How much cash is locked in Levi inventory?
-* Which supplier has the highest inventory value?
+* Which supplier has the highest inventory value
 
 ## Setup
 
